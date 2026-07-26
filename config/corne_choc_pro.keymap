@@ -81,9 +81,16 @@
         base_layer {
             display-name = "ERGOL";
             // ---------------------------------------------------------------------------------------------
+            // Ce qui s'affiche a l'ecran, avec le pilote Ergo-L installe sur le systeme :
             // | TAB  |  q  |  c  |  o  |  p  |  w  |  PP  | VOL+ |  j  |  m  |  d  | 1DK |  y  | BSPC |
             // | ESC  |  a  |  s  |  e  |  n  |  f  | NEXT | VOL- |  l  |  r  |  t  |  i  |  u  | RET  |
             // | SHFT |  z  |  x  |  -  |  v  |  b  |             |  .  |  h  |  g  |  ,  |  k  | SHFT |
+            //                    | ALT | CTRL | GUI |             | NAV | SPC | AGR |
+            //
+            // Ce que le clavier envoie reellement (codes US) - inchange par rapport au keymap d'origine :
+            // | TAB  |  Q  |  W  |  E  |  R  |  T  |  PP  | VOL+ |  Y  |  U  |  I  |  O  |  P  | BSPC |
+            // | ESC  |  A  |  S  |  D  |  F  |  G  | NEXT | VOL- |  H  |  J  |  K  |  L  |  ;  | RET  |
+            // | SHFT |  Z  |  X  |  C  |  V  |  B  |             |  N  |  M  |  ,  |  .  |  /  | SHFT |
             //                    | ALT | CTRL | GUI |             | NAV | SPC | AGR |
             bindings = <
                 &kp TAB   &kp EL_Q &kp EL_C &kp EL_O &kp EL_P &kp EL_W &kp C_PP   &kp C_VOL_UP &kp EL_J   &kp EL_M &kp EL_D &kp EL_1DK   &kp EL_Y &kp BSPC
