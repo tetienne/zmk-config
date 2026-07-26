@@ -1,0 +1,11 @@
+draw_config:
+  # Un seul SVG qui suit le theme clair ou sombre du lecteur, via une media
+  # query CSS. Necessaire parce que le schema est affiche dans le README.
+  dark_mode: auto
+
+parse_config:
+  # Sans ca, ces comportements s'affichent en brut et tronques ("&studio_un...").
+  raw_binding_map:
+    "&studio_unlock": "STUDIO"
+    "&sys_reset": "RESET"
+    "&bootloader": "BOOT"
