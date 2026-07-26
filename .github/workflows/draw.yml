@@ -18,4 +18,7 @@ jobs:
       config_path: "keymap_drawer.config.yaml"
       output_folder: "keymap-drawer"
       json_path: "config"
+      # Ne dessiner que les trois couches utilisees : les couches EXTRA sont
+      # vides et reservees a ZMK Studio, les afficher triple la hauteur du SVG.
+      draw_args: "corne_choc_pro:'-s ERGOL NAVNUM SYS'"
       commit_message: "keymap-drawer : mise a jour du schema"

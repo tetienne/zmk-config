@@ -50,7 +50,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYS:
-  - {t: '&studio_unlock', type: held}
+  - {t: STUDIO, type: held}
   - F1
   - F2
   - F3
@@ -78,12 +78,12 @@ layers:
   - RGB TOG
   - ''
   - {t: ▽, type: trans}
-  - '&sys_reset'
+  - RESET
   - F9
   - F10
   - F11
   - F12
-  - '&bootloader'
+  - BOOT
   - ''
   - ''
   - ''
